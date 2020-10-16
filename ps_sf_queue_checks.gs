@@ -1,9 +1,9 @@
 function ps_sf_queue_checks() {
   
-  //Modify 'Full report' so that it matches the name of the sheet where the Salesforce Report will be pasted.
+  //Feel free to modify 'Full report' so that it matches the name of the sheet where the Salesforce Report will be pasted.
   var important_sheet1 = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Full report');
   
-  //Modify 'Outcome' so that it matches the name of the sheet where the processed info should be landing.
+  //Feel free to modify 'Outcome' so that it matches the name of the sheet where the processed info should be landing.
   var important_sheet2 = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Outcome');
   
   var dataRange_important_sheet1 = important_sheet1.getDataRange();
